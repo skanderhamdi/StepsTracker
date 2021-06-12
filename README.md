@@ -27,7 +27,7 @@ This my coding task submission, and the following list presents what's done:
 - [x] Use a proper architecture for the code, UI code must not include any DB queries or
 business logic. **Done**
 - [x] Use clear models for data. **Done**
-- [x] Document every function and provide meaningful variable names and follow Effective Dart to write your code. **Only the important ones**
+- [x] Document every function and provide meaningful variable names and follow Effective Dart to write your code. **Just important functions have been documented**
 - [x] **(Bonus!)** Dark mode. **Done** 
 - [ ] (Bonus!) Privacy and security (e.g., Firestore database rules)
 - [ ] (Bonus!) The project is null-safe. **Not all of them, i started the project with Flutter 1.24 and after 3 days i moved to Flutter 2**
