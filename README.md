@@ -5,7 +5,7 @@ StepsTrackerPrototype for NyarTech
 
 Skander HAMDI from Algeria, Flutter Developer
 
-This my coding task submission, and the following list presents what's done:
+This is my coding task submission, and the following list presents what's done:
 
 ## Functional
   
@@ -30,7 +30,7 @@ business logic. **Done**
 - [x] Document every function and provide meaningful variable names and follow Effective Dart to write your code. **Just important functions have been documented**
 - [x] **(Bonus!)** Dark mode. **Done** 
 - [ ] (Bonus!) Privacy and security (e.g., Firestore database rules)
-- [ ] (Bonus!) The project is null-safe. **Not all of them, i started the project with Flutter 1.24 and after 3 days i moved to Flutter 2**
+- [ ] (Bonus!) The project is null-safe. **Not the whole code, i started the project with Flutter 1.24 and after 3 days i moved to Flutter 2**
 
 ## Software requirements
 - [x] The application could support only one platform, e.g., Android or iOS. (Bouns!) support for both Android and iOS. **The app is working on Android and iOS** 
