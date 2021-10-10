@@ -1,39 +1,26 @@
-# StepsTrackerPrototype
-StepsTrackerPrototype for NyarTech
+# StepsTracker
+StepsTracker
 
 <img src="https://i.ibb.co/TkCj0bH/logo-white.png" alt="Proposed logo" width="100" height="100"/>
-
-Skander HAMDI from Algeria, Flutter Developer
-
-This is my coding task submission, and the following list presents what's done:
-
-## Functional
   
-- [x] Users could be authenticated anonymously, no need to take a phone number or email. Upon first installation the app should ask for their name and **(Bonus!) image.** **Done**
-- [x] The application should track the user footsteps and update them in real-time, meaning while the app is in the foreground, and the user walks around, they should be able to see the steps counter increasing. **Done**
-- [x] For each number of footsteps taken, a function must run to exchange it to “Health Points”, e.g., 100 footsteps = 1 Health Point. **Done**
-- [x] There should be a history that lists all the exchanges that happened by date and time. **Done**
-- [x] Show a visual feedback (e.g., Snack bar) when users gain extra points. **Done** 
-- [x] There should be a catalog of rewards so users can pick a reward they like and redeem it. Each reward is linked to one partner (e.g., 150 SAR off on Digital Watches from Jarir). **Done**
-- [x] Rewards are paid with health points, feedback should be given upon all cases: if the redemption can happen, show a confirmation dialog, if it cannot due to a low number of points, show an error message stating clearly what’s wrong. **Done**
-- [x] **(Bonus!)** There is a leaderboard page where the user can see their ranking (how many steps they have made since installing the app) compared to all other users, to encourage them to walk more. **Done**
-- [x] **(Bonus!)** If the application is in background, or turned off, the exchange will happen while they are walking, and a notification would be sent from the app telling them that they gained extra points. **Done** (For **Android**, i found a way to do that just using Flutter but it stops after some time, then i have used a Foreground service with **native code** which launch another stepcounter which was able to keep the first stream alive. For **iOS**, we just used flutter and the plugin pedometer, the process is paused after some time from moving to background and we cannot guarantee that it will always work. Background tasks and local notification for both **Android** and **iOS** are working in most test cases.
-- [x] **(Bonus!)** The app is multilingual, supports both Arabic and English. **Done**
+- [x] Users could be authenticated anonymously, no need to take a phone number or email. Upon first installation the app should ask for their name and image.
+- [x] The application should track the user footsteps and update them in real-time, meaning while the app is in the foreground, and the user walks around, they should be able to see the steps counter increasing.
+- [x] For each number of footsteps taken, a function must run to exchange it to “Health Points”, e.g., 100 footsteps = 1 Health Point.
+- [x] There should be a history that lists all the exchanges that happened by date and time.
+- [x] Show a visual feedback (e.g., Snack bar) when users gain extra points.
+- [x] There should be a catalog of rewards so users can pick a reward they like and redeem it. Each reward is linked to one partner (e.g., 10% off on Digital Watches from Xiaomi).
+- [x] Rewards are paid with health points, feedback should be given upon all cases: if the redemption can happen, show a confirmation dialog, if it cannot due to a low number of points, show an error message stating clearly what’s wrong.
+- [x] There is a leaderboard page where the user can see their ranking (how many steps they have made since installing the app) compared to all other users, to encourage them to walk more.
+- [x] If the application is in background, or turned off, the exchange will happen while they are walking, and a notification would be sent from the app telling them that they gained extra points.
+- [x] The app is multilingual, supports both Arabic and English.
 
-## Non-Functional
-
-- [x] Usable and user-friendly interface. **I think**
-- [ ] Follow Material design rules. **Kind of, I can provide the prototype i proposed as XD file** 
-- [x] Use a proper architecture for the code, UI code must not include any DB queries or
-business logic. **Done**
-- [x] Use clear models for data. **Done**
-- [x] Document every function and provide meaningful variable names and follow Effective Dart to write your code. **Just important functions have been documented**
-- [x] **(Bonus!)** Dark mode. **Done** 
-- [ ] (Bonus!) Privacy and security (e.g., Firestore database rules)
-- [ ] (Bonus!) The project is null-safe. **Not the whole code, i started the project with Flutter 1.24 and after 3 days i moved to Flutter 2**
+- [x] Usable and user-friendly interface.
+- [x] Use a proper architecture for the code, UI code must not include any DB queries or business logic.
+- [x] Use clear models for data.
+- [x] Dark mode.
 
 ## Software requirements
-- [x] The application could support only one platform, e.g., Android or iOS. (Bouns!) support for both Android and iOS. **The app is working on Android and iOS** 
+- [x] The app is working on Android and iOS
 
 
 ## Notes
